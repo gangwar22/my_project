@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="text">
+        <img class="img1" src="./image/imge.jpg" alt="" style="height: 100%; width: 100%;">
+        <div id="search">
+            <input type="search" id="search-bar" placeholder="Search...">
+            <button id="search-button">Search</button>
+            <div class="image">
+            </div>
+            <div id="ft">
+                <h1>    Title :</h1>
+                <h1 id="title"></h1>
+            </div>
+            <div id="fr">
+                <h1>   Artist Name :</h1>
+                <h1 id="name"></h1>
+            </div>
+            <div id="audioPlayer">
+                <audio id="audios" controls>
+                    <source id="audiosource" type="audio/mp3">
+                </audio>
+            </div>
+            <div id="controls">
+                <button id="control" onclick="playPause()">
+                    <i class="fa-solid fa-play" id="play-btn"></i>
+                </button>
+            </div>
+            <div id="imgcircles">
+                <img id="imagecircle" src="./image/first.png" alt="Description of the image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Add your JavaScript code here -->  
+    <script src="first1.js"></script>
+</body>
+</html>
+
+

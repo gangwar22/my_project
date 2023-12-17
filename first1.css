@@ -1,0 +1,135 @@
+.text {
+    height: 90vh; 
+    width: 30%; 
+    background-color:white;
+    margin-left: 35vw; 
+    position: relative;
+    border-radius: 10px;
+}
+
+#btn {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    top: 90%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%; /* Make it a circle */
+}
+.img1{
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+}
+#search-bar{
+    height: 45px;
+    width: 300px;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 20px 0px  0px 20px;
+    background-color:skyblue;
+    font-weight: bold;
+    position: absolute;
+    cursor: pointer;
+    top:10%;
+    left: 15%;
+}
+#search-button{
+    height: 45px;
+    width: 100px;
+    background-color: green;
+    position: absolute;  
+    cursor: pointer;
+    border-radius: 0px 20px 20px 0px;
+    top:10.1%;
+    left: 69.6%;
+}
+#search-button:hover{
+    background-color: skyblue;
+
+}
+.image{
+    position:absolute;
+    cursor: pointer;
+    top: 13%;
+    left:13%;
+}
+#ft{
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    top: 70%;
+    left: 5%;
+}
+#fr{
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    top: 75%;
+    left: 5%;
+}
+#audioPlayer{
+    display: flex;
+    position: absolute;
+    cursor:pointer;
+    top: 85%;
+    left: 20%;
+}
+#control{
+    height: 50px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 92%;
+    left: 40%;
+}
+
+#play-btn{
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    padding: 0.5rem;
+    margin-left: 0.4rem;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+#imgcircles{
+    height: 250px;
+    width: 250px;
+    background-color:red;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    top: 35%;
+    left: 30%;
+}
+#imagecircle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    top: 0%;
+    left: 0%;
+}
